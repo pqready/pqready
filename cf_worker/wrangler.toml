@@ -1,0 +1,10 @@
+name = "pqready-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+PQREADY_BACKEND_URL = "https://your-cloudrun-or-vps-url/mcp"
+
+[[routes]]
+pattern = "mcp.pqready.com/*"
+zone_name = "pqready.com"
