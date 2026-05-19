@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ───────────────────────────────────────────────────────────────────────
+# pqready / project-specific
+# ───────────────────────────────────────────────────────────────────────
+
+# Claude Code harness state (worktrees, sessions, settings, etc.)
+.claude/
+
+# Node / Cloudflare Worker
+node_modules/
+.wrangler/
+.dev.vars
+
+# Locally generated scan reports (do not commit accidental --output dumps)
+/report.html
+/*.report.html
+/pqready-report*.html
+
+# OS junk
+.DS_Store
+Thumbs.db
+
