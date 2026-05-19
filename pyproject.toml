@@ -1,6 +1,6 @@
 [project]
 name = "pqready"
-version = "0.2.1"
+version = "0.2.2"
 description = "PQC readiness scanner: TLS endpoints, source code, and certificate files"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.11"
@@ -39,12 +39,12 @@ pqready     = "pqready.cli:main"
 pqready-mcp = "pqready.mcp_server:main"
 
 [project.urls]
-Homepage      = "https://github.com/shanglai/pqready"
-Repository    = "https://github.com/shanglai/pqready"
-Issues        = "https://github.com/shanglai/pqready/issues"
-Documentation = "https://github.com/shanglai/pqready/blob/main/README.md"
-"Agent skill" = "https://github.com/shanglai/pqready/blob/main/skill/SKILL.md"
-Changelog     = "https://github.com/shanglai/pqready/releases"
+Homepage      = "https://github.com/pqready/pqready"
+Repository    = "https://github.com/pqready/pqready"
+Issues        = "https://github.com/pqready/pqready/issues"
+Documentation = "https://github.com/pqready/pqready/blob/main/README.md"
+"Agent skill" = "https://github.com/pqready/pqready/blob/main/skill/SKILL.md"
+Changelog     = "https://github.com/pqready/pqready/releases"
 
 [build-system]
 requires      = ["hatchling"]

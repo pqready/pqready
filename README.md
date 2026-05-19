@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/pqready.svg)](https://pypi.org/project/pqready/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pqready.svg)](https://pypi.org/project/pqready/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![CI](https://github.com/shanglai/pqready/actions/workflows/test.yml/badge.svg)](https://github.com/shanglai/pqready/actions/workflows/test.yml)
+[![CI](https://github.com/pqready/pqready/actions/workflows/test.yml/badge.svg)](https://github.com/pqready/pqready/actions/workflows/test.yml)
 
 **Post-quantum cryptography readiness scanner.** Audits TLS endpoints, source
 code, and certificate files for quantum-vulnerable crypto and surfaces a
@@ -211,13 +211,13 @@ See [`skill/SKILL.md`](skill/SKILL.md) for the full per-ID remediation table.
 | ------------------------------------------- | ------------------------------------------------ |
 | [`skill/SKILL.md`](skill/SKILL.md)          | Full MCP tool schemas + agent decision tree      |
 | [`cf_worker/README.md`](cf_worker/README.md)| Cloudflare Worker deployment guide               |
-| [GitHub repo](https://github.com/shanglai/pqready) | Issues, releases, source                   |
+| [GitHub repo](https://github.com/pqready/pqready) | Issues, releases, source                   |
 | [PyPI project](https://pypi.org/project/pqready/)  | Latest release, install command            |
 
 ## Development
 
 ```bash
-git clone https://github.com/shanglai/pqready.git
+git clone https://github.com/pqready/pqready.git
 cd pqready
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -e ".[dev]"
